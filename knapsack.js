@@ -58,7 +58,7 @@ function firstTry(items, capacity) {
     });
     
     items.pop();
-
+    console.log(items);
     let totalSize = 0;
     totalValue = 0;
     let working = true;
